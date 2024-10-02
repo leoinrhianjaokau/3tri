@@ -4,7 +4,7 @@ async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
     const dados = await res.json()
     console.log(dados.tempo_medio);
-    const paragrafo document.createElement('p')
+    const paragrafo = document.createElement('p')
   paragrafo.classList.add('graficos-container__texto')
 }
 
